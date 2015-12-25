@@ -1,0 +1,16 @@
+{	"id"          : "nodebb-plugin-punchdrunk"
+,	"name"        : "Punchdrunk Plugin"
+,	"description" : "Embed LÖVE games in posts using Punchdrunk."
+,	"library"     : "library.js"
+,	"url"         : "https://github.com/yariplus/nodebb-plugin-punchdrunk"
+,	"less"        : [ "style.less" ]
+,	"staticDirs":
+	{	"punchdrunk" : "node_modules/punchdrunk"
+	,	"style"      : "style"
+	}
+,	"hooks":
+	[	{ "hook": "static:app.load",   "method": "load" }
+	,	{ "hook": "filter:parse.raw",  "method": "parseRaw" }
+	,	{ "hook": "filter:parse.post", "method": "parsePost" }
+	]
+}

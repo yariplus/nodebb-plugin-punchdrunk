@@ -1,0 +1,25 @@
+{	"name"         : "nodebb-plugin-punchdrunk"
+,	"version"      : "0.0.1"
+,	"description"  : "Embed LÖVE games in posts using Punchdrunk."
+,	"license"      : "(CC0 OR MIT)"
+,	"main"         : "library.js"
+,	"homepage"     : "https://github.com/yariplus/nodebb-plugin-punchdrunk"
+,	"dependencies" : { "punchdrunk": "git+https://github.com/yariplus/punchdrunk.git#f1adc2860a7e6a62c65ef15a0b6c983b2123a3cb" }
+,	"bugs"         : { "url": "https://github.com/yariplus/nodebb-plugin-punchdrunk/issues" }
+,	"repository":
+	{	"type" : "git"
+	,	"url"  : "https://github.com/yariplus/nodebb-plugin-punchdrunk"
+	}
+,	"keywords":
+	[	"nodebb"
+	,	"plugin"
+	,	"lua"
+	,	"punchdrunk"
+	]
+,	"author":
+	{	"name": "yariplus"
+	,	"email": "tafike@gmail.com"
+	}
+,	"readme": ""
+,	"readmeFilename": "README.md"
+}
